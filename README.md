@@ -1,4 +1,3 @@
-
 # ⭐ **SMARTSPEND — Automated AI-Based Financial Transaction Categorisation**
 
 SmartSpend is an AI-powered system that automatically categorises noisy and unstructured financial transaction descriptions into meaningful categories like **Food**, **Groceries**, **Fuel**, **Shopping**, **Travel**, **Bills & Utilities**, etc.
@@ -41,11 +40,13 @@ SmartSpend/
 │
 ├── config/
 │   └── taxonomy.json          # List of supported categories
+|   └── model matix            # store the parameters of ML model 
 │
 └── saved_model/
-    ├── svm_model.pkl          # Trained machine learning model
-    └── tfidf_vectorizer.pkl   # TF-IDF vectorizer
-
+|   ├── svm_model.pkl          # Trained machine learning model
+|   └── tfidf_vectorizer.pkl   # TF-IDF vectorizer
+| 
+└── SMARTSPEND REPORT
  ```
 ----------
 
